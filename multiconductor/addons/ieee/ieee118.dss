@@ -1,0 +1,552 @@
+! Auto-generated from pandapower network
+Clear
+New Circuit.pandapower_net basekv=138.0000 pu=1.00 bus1=bus68
+New LineCode.lc_0 nphases=3 r1=5.770332 x1=19.024956 c1=353.7891 r0=17.310996 x0=57.074868 c0=353.7891 units=km
+New LineCode.lc_1 nphases=3 r1=2.456676 x1=8.074656 c1=150.7086 r0=7.370028 x0=24.223968 c0=150.7086 units=km
+New LineCode.lc_2 nphases=3 r1=0.335174 x1=1.519711 c1=29.2503 r0=1.005523 x0=4.559134 c0=29.2503 units=km
+New LineCode.lc_3 nphases=3 r1=4.589604 x1=20.567520 c1=395.5752 r0=13.768812 x0=61.702560 c0=395.5752 units=km
+New LineCode.lc_4 nphases=3 r1=2.266236 x1=10.283760 c1=198.6233 r0=6.798708 x0=30.851280 c0=198.6233 units=km
+New LineCode.lc_5 nphases=3 r1=0.874120 x1=3.961152 c1=76.6079 r0=2.622359 x0=11.883456 c0=76.6079 units=km
+New LineCode.lc_6 nphases=3 r1=2.904210 x1=36.302625 c1=2589.6246 r0=8.712630 x0=108.907875 c0=2589.6246 units=km
+New LineCode.lc_7 nphases=3 r1=3.070845 x1=38.326050 c1=2741.1689 r0=9.212535 x0=114.978150 c0=2741.1689 units=km
+New LineCode.lc_8 nphases=3 r1=3.980196 x1=13.102272 c1=243.4737 r0=11.940588 x0=39.306816 c0=243.4737 units=km
+New LineCode.lc_9 nphases=3 r1=3.865932 x1=12.988008 c1=242.0809 r0=11.597796 x0=38.964024 c0=242.0809 units=km
+New LineCode.lc_10 nphases=3 r1=1.133118 x1=3.732624 c1=69.9221 r0=3.399354 x0=11.197872 c0=69.9221 units=km
+New LineCode.lc_11 nphases=3 r1=3.561228 x1=11.731104 c1=218.9592 r0=10.683684 x0=35.193312 c0=218.9592 units=km
+New LineCode.lc_12 nphases=3 r1=9.217296 x1=30.470400 c1=565.5054 r0=27.651888 x0=91.411200 c0=565.5054 units=km
+New LineCode.lc_13 nphases=3 r1=1.641593 x1=6.474960 c1=121.7369 r0=4.924778 x0=19.424880 c0=121.7369 units=km
+New LineCode.lc_14 nphases=3 r1=4.237290 x1=13.921164 c1=261.3025 r0=12.711870 x0=41.763492 c0=261.3025 units=km
+New LineCode.lc_15 nphases=3 r1=4.094460 x1=13.464108 c1=252.9453 r0=12.283380 x0=40.392324 c0=252.9453 units=km
+New LineCode.lc_16 nphases=3 r1=14.168736 x1=46.543536 c1=873.0512 r0=42.506208 x0=139.630608 c0=873.0512 units=km
+New LineCode.lc_17 nphases=3 r1=11.331180 x1=37.135800 c1=699.2209 r0=33.993540 x0=111.407400 c0=699.2209 units=km
+New LineCode.lc_18 nphases=3 r1=4.037328 x1=15.882696 c1=298.0743 r0=12.111984 x0=47.648088 c0=298.0743 units=km
+New LineCode.lc_19 nphases=3 r1=2.513808 x1=8.322228 c1=618.4345 r0=7.541424 x0=24.966684 c0=618.4345 units=km
+New LineCode.lc_20 nphases=3 r1=8.645976 x1=34.298244 c1=649.0776 r0=25.937928 x0=102.894732 c0=649.0776 units=km
+New LineCode.lc_21 nphases=3 r1=2.342412 x1=9.617220 c1=180.7946 r0=7.027236 x0=28.851660 c0=180.7946 units=km
+New LineCode.lc_22 nphases=3 r1=2.131024 x1=9.388692 c1=159.0658 r0=6.393071 x0=28.166076 c0=159.0658 units=km
+New LineCode.lc_23 nphases=3 r1=4.799088 x1=22.281480 c1=415.0754 r0=14.397264 x0=66.844440 c0=415.0754 units=km
+New LineCode.lc_24 nphases=3 r1=2.285280 x1=7.503336 c1=140.6799 r0=6.855840 x0=22.510008 c0=140.6799 units=km
+New LineCode.lc_25 nphases=3 r1=3.485052 x1=16.168356 c1=300.8600 r0=10.455156 x0=48.505068 c0=300.8600 units=km
+New LineCode.lc_26 nphases=3 r1=3.980196 x1=18.472680 c1=342.6461 r0=11.940588 x0=55.418040 c0=342.6461 units=km
+New LineCode.lc_27 nphases=3 r1=6.513048 x1=30.279960 c1=562.7196 r0=19.539144 x0=90.839880 c0=562.7196 units=km
+New LineCode.lc_28 nphases=3 r1=2.570940 x1=9.369648 c1=693.6495 r0=7.712820 x0=28.108944 c0=693.6495 units=km
+New LineCode.lc_29 nphases=3 r1=2.970864 x1=15.235200 c1=1203.4400 r0=8.912592 x0=45.705600 c0=1203.4400 units=km
+New LineCode.lc_30 nphases=3 r1=6.055992 x1=31.041720 c1=2457.0234 r0=18.167976 x0=93.125160 c0=2457.0234 units=km
+New LineCode.lc_31 nphases=3 r1=3.643117 x1=16.282620 c1=300.8600 r0=10.929352 x0=48.847860 c0=300.8600 units=km
+New LineCode.lc_32 nphases=3 r1=4.513428 x1=17.958492 c1=331.5032 r0=13.540284 x0=53.875476 c0=331.5032 units=km
+New LineCode.lc_33 nphases=3 r1=5.129977 x1=59.988600 c1=1145.4966 r0=15.389933 x0=179.965800 c0=1145.4966 units=km
+New LineCode.lc_34 nphases=3 r1=9.510098 x1=102.361500 c1=2023.5621 r0=28.530293 x0=307.084500 c0=2023.5621 units=km
+New LineCode.lc_35 nphases=3 r1=9.026856 x1=29.765772 c1=555.7553 r0=27.080568 x0=89.297316 c0=555.7553 units=km
+New LineCode.lc_36 nphases=3 r1=2.056752 x1=6.303564 c1=115.6082 r0=6.170256 x0=18.910692 c0=115.6082 units=km
+New LineCode.lc_37 nphases=3 r1=6.036948 x1=21.957732 c1=1633.8370 r0=18.110844 x0=65.873196 c0=1633.8370 units=km
+New LineCode.lc_38 nphases=3 r1=5.675112 x1=18.758340 c1=349.6105 r0=17.025336 x0=56.275020 c0=349.6105 units=km
+New LineCode.lc_39 nphases=3 r1=4.361076 x1=14.378220 c1=268.2668 r0=13.083228 x0=43.134660 c0=268.2668 units=km
+New LineCode.lc_40 nphases=3 r1=7.236720 x1=23.690736 c1=444.8828 r0=21.710160 x0=71.072208 c0=444.8828 units=km
+New LineCode.lc_41 nphases=3 r1=14.321088 x1=47.038680 c1=880.2941 r0=42.963264 x0=141.116040 c0=880.2941 units=km
+New LineCode.lc_42 nphases=3 r1=0.426586 x1=1.942488 c1=37.3289 r0=1.279757 x0=5.827464 c0=37.3289 units=km
+New LineCode.lc_43 nphases=3 r1=2.094840 x1=9.464868 c1=183.5803 r0=6.284520 x0=28.394604 c0=183.5803 units=km
+New LineCode.lc_44 nphases=3 r1=7.903260 x1=27.042480 c1=509.7906 r0=23.709780 x0=81.127440 c0=509.7906 units=km
+New LineCode.lc_45 nphases=3 r1=1.658732 x1=5.103792 c1=79.1150 r0=4.976197 x0=15.311376 c0=79.1150 units=km
+New LineCode.lc_46 nphases=3 r1=0.487526 x1=1.790136 c1=137.0584 r0=1.462579 x0=5.370408 c0=137.0584 units=km
+New LineCode.lc_47 nphases=3 r1=6.113124 x1=20.186640 c1=376.0750 r0=18.339372 x0=60.559920 c0=376.0750 units=km
+New LineCode.lc_48 nphases=3 r1=11.293092 x1=31.993920 c1=585.0056 r0=33.879276 x0=95.981760 c0=585.0056 units=km
+New LineCode.lc_49 nphases=3 r1=5.522760 x1=64.273500 c1=940.4661 r0=16.568280 x0=192.820500 c0=940.4661 units=km
+New LineCode.lc_50 nphases=3 r1=3.504096 x1=11.521620 c1=216.1735 r0=10.512288 x0=34.564860 c0=216.1735 units=km
+New LineCode.lc_51 nphases=3 r1=2.761380 x1=9.274428 c1=170.2088 r0=8.284140 x0=27.823284 c0=170.2088 units=km
+New LineCode.lc_52 nphases=3 r1=10.569420 x1=34.850520 c1=649.0776 r0=31.708260 x0=104.551560 c0=649.0776 units=km
+New LineCode.lc_53 nphases=3 r1=7.808040 x1=25.709400 c1=479.1474 r0=23.424120 x0=77.128200 c0=479.1474 units=km
+New LineCode.lc_54 nphases=3 r1=11.578752 x1=46.733976 c1=845.1938 r0=34.736256 x0=140.201928 c0=845.1938 units=km
+New LineCode.lc_55 nphases=3 r1=7.865172 x1=32.012964 c1=588.6270 r0=23.595516 x0=96.038892 c0=588.6270 units=km
+New LineCode.lc_56 nphases=3 r1=4.265856 x1=17.158644 c1=312.0030 r0=12.797568 x0=51.475932 c0=312.0030 units=km
+New LineCode.lc_57 nphases=3 r1=7.617600 x1=25.823664 c1=462.4330 r0=22.852800 x0=77.470992 c0=462.4330 units=km
+New LineCode.lc_58 nphases=3 r1=7.236720 x1=24.185880 c1=440.1470 r0=21.710160 x0=72.557640 c0=440.1470 units=km
+New LineCode.lc_59 nphases=3 r1=11.445444 x1=35.993160 c1=657.4348 r0=34.336332 x0=107.979480 c0=657.4348 units=km
+New LineCode.lc_60 nphases=3 r1=3.637404 x1=11.902500 c1=223.4164 r0=10.912212 x0=35.707500 c0=223.4164 units=km
+New LineCode.lc_61 nphases=3 r1=13.616460 x1=61.512120 c1=1197.8685 r0=40.849380 x0=184.536360 c0=1197.8685 units=km
+New LineCode.lc_62 nphases=3 r1=13.026096 x1=35.421840 c1=618.4345 r0=39.078288 x0=106.265520 c0=618.4345 units=km
+New LineCode.lc_63 nphases=3 r1=3.408876 x1=9.617220 c1=175.2231 r0=10.226628 x0=28.851660 c0=175.2231 units=km
+New LineCode.lc_64 nphases=3 r1=5.084748 x1=14.321088 c1=261.0239 r0=15.254244 x0=42.963264 c0=261.0239 units=km
+New LineCode.lc_65 nphases=3 r1=9.255384 x1=26.090280 c1=476.3617 r0=27.766152 x0=78.270840 c0=476.3617 units=km
+New LineCode.lc_66 nphases=3 r1=3.865932 x1=11.197872 c1=194.4447 r0=11.597796 x0=33.593616 c0=194.4447 units=km
+New LineCode.lc_67 nphases=3 r1=7.712820 x1=31.136940 c1=565.2268 r0=23.138460 x0=93.410820 c0=565.2268 units=km
+New LineCode.lc_68 nphases=3 r1=5.008572 x1=23.233680 c1=431.7898 r0=15.025716 x0=69.701040 c0=431.7898 units=km
+New LineCode.lc_69 nphases=3 r1=13.902120 x1=55.037160 c1=1027.9384 r0=41.706360 x0=165.111480 c0=1027.9384 units=km
+New LineCode.lc_70 nphases=3 r1=16.549236 x1=55.418040 c1=1016.7954 r0=49.647708 x0=166.254120 c0=1016.7954 units=km
+New LineCode.lc_71 nphases=3 r1=3.218436 x1=13.464108 c1=281.3598 r0=9.655308 x0=40.392324 c0=281.3598 units=km
+New LineCode.lc_72 nphases=3 r1=0.523710 x1=1.818702 c1=101.9581 r0=1.571130 x0=5.456106 c0=101.9581 units=km
+New LineCode.lc_73 nphases=3 r1=0.929347 x1=2.875644 c1=52.0934 r0=2.788042 x0=8.626932 c0=52.0934 units=km
+New LineCode.lc_74 nphases=3 r1=6.532092 x1=18.396504 c1=337.0746 r0=19.596276 x0=55.189512 c0=337.0746 units=km
+New LineCode.lc_75 nphases=3 r1=9.026856 x1=25.518960 c1=462.4330 r0=27.080568 x0=76.556880 c0=462.4330 units=km
+New LineCode.lc_76 nphases=3 r1=4.856220 x1=13.692636 c1=249.0452 r0=14.568660 x0=41.077908 c0=249.0452 units=km
+New LineCode.lc_77 nphases=3 r1=9.579132 x1=43.667892 c1=832.9365 r0=28.737396 x0=131.003676 c0=832.9365 units=km
+New LineCode.lc_78 nphases=3 r1=15.711300 x1=47.800440 c1=792.5433 r0=47.133900 x0=143.401320 c0=792.5433 units=km
+New LineCode.lc_79 nphases=3 r1=15.292332 x1=45.515160 c1=746.5785 r0=45.876996 x0=136.545480 c0=746.5785 units=km
+New LineCode.lc_80 nphases=3 r1=9.024952 x1=41.096952 c1=786.4146 r0=27.074855 x0=123.290856 c0=786.4146 units=km
+New LineCode.lc_81 nphases=3 r1=6.036948 x1=27.613800 c1=523.7193 r0=18.110844 x0=82.841400 c0=523.7193 units=km
+New LineCode.lc_82 nphases=3 r1=6.246432 x1=28.566000 c1=540.4337 r0=18.739296 x0=85.698000 c0=540.4337 units=km
+New LineCode.lc_83 nphases=3 r1=0.502762 x1=2.570940 c1=202.8019 r0=1.508285 x0=7.712820 c0=202.8019 units=km
+New LineCode.lc_84 nphases=3 r1=2.342412 x1=10.683684 c1=204.4734 r0=7.027236 x0=32.051052 c0=204.4734 units=km
+New LineCode.lc_85 nphases=3 r1=1.569226 x1=7.160544 c1=136.5013 r0=4.707677 x0=21.481632 c0=136.5013 units=km
+New LineCode.lc_86 nphases=3 r1=2.047230 x1=23.805000 c1=481.3760 r0=6.141690 x0=71.415000 c0=481.3760 units=km
+New LineCode.lc_87 nphases=3 r1=10.724153 x1=117.358650 c1=2331.1079 r0=32.172458 x0=352.075950 c0=2331.1079 units=km
+New LineCode.lc_88 nphases=3 r1=3.201773 x1=35.945550 c1=846.8652 r0=9.605317 x0=107.836650 c0=846.8652 units=km
+New LineCode.lc_89 nphases=3 r1=3.427920 x1=17.501436 c1=345.4319 r0=10.283760 x0=52.504308 c0=345.4319 units=km
+New LineCode.lc_90 nphases=3 r1=9.179208 x1=41.515920 c1=805.0791 r0=27.537624 x0=124.547760 c0=805.0791 units=km
+New LineCode.lc_91 nphases=3 r1=4.913352 x1=22.281480 c1=431.7898 r0=14.740056 x0=66.844440 c0=431.7898 units=km
+New LineCode.lc_92 nphases=3 r1=4.265856 x1=19.329660 c1=373.5678 r0=12.797568 x0=57.988980 c0=373.5678 units=km
+New LineCode.lc_93 nphases=3 r1=16.073136 x1=52.904232 c1=987.8237 r0=48.219408 x0=158.712696 c0=987.8237 units=km
+New LineCode.lc_94 nphases=3 r1=18.758340 x1=61.702560 c1=1153.2967 r0=56.275020 x0=185.107680 c0=1153.2967 units=km
+New LineCode.lc_95 nphases=3 r1=5.713200 x1=24.185880 c1=1699.3019 r0=17.139600 x0=72.557640 c0=1699.3019 units=km
+New LineCode.lc_96 nphases=3 r1=0.420872 x1=78.366060 c1=1420.4492 r0=1.262617 x0=235.098180 c0=1420.4492 units=km
+New LineCode.lc_97 nphases=3 r1=1.679681 x1=6.760620 c1=122.2940 r0=5.039042 x0=20.281860 c0=122.2940 units=km
+New LineCode.lc_98 nphases=3 r1=9.293472 x1=37.326240 c1=679.7208 r0=27.880416 x0=111.978720 c0=679.7208 units=km
+New LineCode.lc_99 nphases=3 r1=8.493624 x1=34.279200 c1=618.9916 r0=25.480872 x0=102.837600 c0=618.9916 units=km
+New LineCode.lc_100 nphases=3 r1=1.649210 x1=8.645976 c1=164.0801 r0=4.947631 x0=25.937928 c0=164.0801 units=km
+New LineCode.lc_101 nphases=3 r1=7.636644 x1=25.195212 c1=469.1187 r0=22.909932 x0=75.585636 c0=469.1187 units=km
+New LineCode.lc_102 nphases=3 r1=8.150832 x1=26.852040 c1=501.4333 r0=24.452496 x0=80.556120 c0=501.4333 units=km
+New LineCode.lc_103 nphases=3 r1=7.712820 x1=23.233680 c1=1727.1593 r0=23.138460 x0=69.701040 c0=1727.1593 units=km
+New LineCode.lc_104 nphases=3 r1=2.342412 x1=7.731864 c1=144.0228 r0=7.027236 x0=23.195592 c0=144.0228 units=km
+New LineCode.lc_105 nphases=3 r1=8.455536 x1=28.185120 c1=512.5763 r0=25.366608 x0=84.555360 c0=512.5763 units=km
+New LineCode.lc_106 nphases=3 r1=5.884596 x1=19.234440 c1=1445.7995 r0=17.653788 x0=57.703320 c0=1445.7995 units=km
+New LineCode.lc_107 nphases=3 r1=11.445444 x1=38.068956 c1=693.3709 r0=34.336332 x0=114.206868 c0=693.3709 units=km
+New LineCode.lc_108 nphases=3 r1=0.716054 x1=2.361456 c1=176.0588 r0=2.148163 x0=7.084368 c0=176.0588 units=km
+New LineCode.lc_109 nphases=3 r1=1.039802 x1=4.646736 c1=90.2580 r0=3.119407 x0=13.940208 c0=90.2580 units=km
+New LineCode.lc_110 nphases=3 r1=3.237480 x1=9.236340 c1=657.4348 r0=9.712440 x0=27.709020 c0=657.4348 units=km
+New LineCode.lc_111 nphases=3 r1=5.598936 x1=19.996200 c1=317.5745 r0=16.796808 x0=59.988600 c0=317.5745 units=km
+New LineCode.lc_112 nphases=3 r1=2.970864 x1=13.406976 c1=260.4668 r0=8.912592 x0=40.220928 c0=260.4668 units=km
+New LineCode.lc_113 nphases=3 r1=5.675112 x1=16.244532 c1=1138.5323 r0=17.025336 x0=48.733596 c0=1138.5323 units=km
+New LineCode.lc_114 nphases=3 r1=2.132928 x1=6.979626 c1=528.7336 r0=6.398784 x0=20.938878 c0=528.7336 units=km
+New LineCode.lc_115 nphases=3 r1=11.902500 x1=25.138080 c1=359.3606 r0=35.707500 x0=75.414240 c0=359.3606 units=km
+New LineCode.lc_116 nphases=3 r1=8.188920 x1=28.185120 c1=484.7189 r0=24.566760 x0=84.555360 c0=484.7189 units=km
+New LineCode.lc_117 nphases=3 r1=5.751288 x1=12.207204 c1=171.8802 r0=17.253864 x0=36.621612 c0=171.8802 units=km
+New LineCode.lc_118 nphases=3 r1=6.665400 x1=23.424120 c1=384.4322 r0=19.996200 x0=70.272360 c0=384.4322 units=km
+New LineCode.lc_119 nphases=3 r1=3.808800 x1=19.424880 c1=384.4322 r0=11.426400 x0=58.274640 c0=384.4322 units=km
+New LineCode.lc_120 nphases=3 r1=4.551516 x1=32.946120 c1=654.6491 r0=13.654548 x0=98.838360 c0=654.6491 units=km
+New LineCode.lc_121 nphases=3 r1=2.647116 x1=13.559328 c1=269.3811 r0=7.941348 x0=40.677984 c0=269.3811 units=km
+New LineCode.lc_122 nphases=3 r1=9.864792 x1=35.802720 c1=735.4356 r0=29.594376 x0=107.408160 c0=735.4356 units=km
+New LineCode.lc_123 nphases=3 r1=4.532472 x1=18.986868 c1=1476.4426 r0=13.597416 x0=56.960604 c0=1476.4426 units=km
+New LineCode.lc_124 nphases=3 r1=4.837176 x1=15.920784 c1=298.0743 r0=14.511528 x0=47.762352 c0=298.0743 units=km
+New LineCode.lc_125 nphases=3 r1=1.885356 x1=9.617220 c1=763.2930 r0=5.656068 x0=28.851660 c0=763.2930 units=km
+New LineCode.lc_126 nphases=3 r1=7.484292 x1=30.108564 c1=576.6483 r0=22.452876 x0=90.325692 c0=576.6483 units=km
+New LineCode.lc_127 nphases=3 r1=7.370028 x1=24.223968 c1=455.1900 r0=22.110084 x0=72.671904 c0=455.1900 units=km
+New LineCode.lc_128 nphases=3 r1=4.913352 x1=16.149312 c1=303.6457 r0=14.740056 x0=48.447936 c0=303.6457 units=km
+New LineCode.lc_129 nphases=3 r1=9.160164 x1=30.089520 c1=565.5054 r0=27.480492 x0=90.268560 c0=565.5054 units=km
+New LineCode.lc_130 nphases=3 r1=4.246812 x1=13.940208 c1=261.3025 r0=12.740436 x0=41.820624 c0=261.3025 units=km
+New LineCode.lc_131 nphases=3 r1=2.513808 x1=8.265096 c1=154.6086 r0=7.541424 x0=24.795288 c0=154.6086 units=km
+New LineCode.lc_132 nphases=3 r1=6.779664 x1=34.660080 c1=688.0780 r0=20.338992 x0=103.980240 c0=688.0780 units=km
+New LineCode.lc_133 nphases=3 r1=3.085128 x1=10.093320 c1=757.7215 r0=9.255384 x0=30.279960 c0=757.7215 units=km
+New LineCode.lc_134 nphases=3 r1=5.122836 x1=16.549236 c1=320.3602 r0=15.368508 x0=49.647708 c0=320.3602 units=km
+New LineCode.lc_135 nphases=3 r1=3.485052 x1=17.787096 c1=353.7891 r0=10.455156 x0=53.361288 c0=353.7891 units=km
+New LineCode.lc_136 nphases=3 r1=4.532472 x1=20.567520 c1=398.3609 r0=13.597416 x0=61.702560 c0=398.3609 units=km
+New LineCode.lc_137 nphases=3 r1=8.645976 x1=39.230640 c1=760.5072 r0=25.937928 x0=117.691920 c0=760.5072 units=km
+New LineCode.lc_138 nphases=3 r1=12.340512 x1=56.179800 c1=657.4348 r0=37.021536 x0=168.539400 c0=657.4348 units=km
+New LineCode.lc_139 nphases=3 r1=3.389832 x1=11.045520 c1=841.2937 r0=10.169496 x0=33.136560 c0=841.2937 units=km
+New LineCode.lc_140 nphases=3 r1=3.256524 x1=10.417068 c1=205.3091 r0=9.769572 x0=31.251204 c0=205.3091 units=km
+New LineCode.lc_141 nphases=3 r1=3.294612 x1=16.853940 c1=334.2889 r0=9.883836 x0=50.561820 c0=334.2889 units=km
+New LineCode.lc_142 nphases=3 r1=7.560468 x1=34.088760 c1=663.0063 r0=22.681404 x0=102.266280 c0=663.0063 units=km
+New LineCode.lc_143 nphases=3 r1=3.427920 x1=15.482772 c1=300.8600 r0=10.283760 x0=46.448316 c0=300.8600 units=km
+New LineCode.lc_144 nphases=3 r1=5.275188 x1=24.033528 c1=456.8615 r0=15.825564 x0=72.100584 c0=456.8615 units=km
+New LineCode.lc_145 nphases=3 r1=2.342412 x1=10.645596 c1=203.9162 r0=7.027236 x0=31.936788 c0=203.9162 units=km
+New LineCode.lc_146 nphases=3 r1=4.684824 x1=21.329280 c1=409.5039 r0=14.054472 x0=63.987840 c0=409.5039 units=km
+New LineCode.lc_147 nphases=3 r1=3.047040 x1=9.998100 c1=746.5785 r0=9.141120 x0=29.994300 c0=746.5785 units=km
+New LineCode.lc_148 nphases=3 r1=8.588844 x1=38.849760 c1=753.5429 r0=25.766532 x0=116.549280 c0=753.5429 units=km
+New LineCode.lc_149 nphases=3 r1=8.874504 x1=30.165696 c1=566.8983 r0=26.623512 x0=90.497088 c0=566.8983 units=km
+New LineCode.lc_150 nphases=3 r1=10.188540 x1=30.946500 c1=568.2911 r0=30.565620 x0=92.839500 c0=568.2911 units=km
+New LineCode.lc_151 nphases=3 r1=11.521620 x1=43.610760 c1=863.5796 r0=34.564860 x0=130.832280 c0=863.5796 units=km
+New LineCode.lc_152 nphases=3 r1=1.892974 x1=7.198632 c1=137.3370 r0=5.678921 x0=21.595896 c0=137.3370 units=km
+New LineCode.lc_153 nphases=3 r1=2.666160 x1=10.417068 c1=199.7376 r0=7.998480 x0=31.251204 c0=199.7376 units=km
+New LineCode.lc_154 nphases=3 r1=10.093320 x1=34.850520 c1=657.4348 r0=30.279960 x0=104.551560 c0=657.4348 units=km
+New LineCode.lc_155 nphases=3 r1=4.970484 x1=13.387932 c1=256.8453 r0=14.911452 x0=40.163796 c0=256.8453 units=km
+New LineCode.lc_156 nphases=3 r1=1.999620 x1=5.484672 c1=105.8582 r0=5.998860 x0=16.454016 c0=105.8582 units=km
+New LineCode.lc_157 nphases=3 r1=7.438586 x1=34.526772 c1=642.1133 r0=22.315759 x0=103.580316 c0=642.1133 units=km
+New LineCode.lc_158 nphases=3 r1=5.294232 x1=14.511528 c1=281.3598 r0=15.882696 x0=43.534584 c0=281.3598 units=km
+New LineCode.lc_159 nphases=3 r1=4.189680 x1=14.378220 c1=278.5741 r0=12.569040 x0=43.134660 c0=278.5741 units=km
+New LineCode.lc_160 nphases=3 r1=4.703868 x1=12.188160 c1=863.5796 r0=14.111604 x0=36.564480 c0=863.5796 units=km
+New LineCode.lc_161 nphases=3 r1=1.738717 x1=5.732244 c1=106.9724 r0=5.216152 x0=17.196732 c0=106.9724 units=km
+New LineCode.lc_162 nphases=3 r1=11.712060 x1=38.659320 c1=721.5069 r0=35.136180 x0=115.977960 c0=721.5069 units=km
+New LineCode.lc_163 nphases=3 r1=2.570940 x1=11.654928 c1=226.7593 r0=7.712820 x0=34.964784 c0=226.7593 units=km
+New LineCode.lc_164 nphases=3 r1=3.123216 x1=14.111604 c1=274.6740 r0=9.369648 x0=42.334812 c0=274.6740 units=km
+New LineCode.lc_165 nphases=3 r1=0.438012 x1=1.980576 c1=38.4432 r0=1.314036 x0=5.941728 c0=38.4432 units=km
+New LineCode.lc_166 nphases=3 r1=6.265476 x1=26.661600 c1=498.6476 r0=18.796428 x0=79.984800 c0=498.6476 units=km
+New LineCode.lc_167 nphases=3 r1=2.761380 x1=9.160164 c1=166.8659 r0=8.284140 x0=27.480492 c0=166.8659 units=km
+New LineCode.lc_168 nphases=3 r1=3.123216 x1=10.359936 c1=188.8732 r0=9.369648 x0=31.079808 c0=188.8732 units=km
+New Line.line0 bus1=bus0 bus2=bus1 linecode=lc_0 length=1.0000 units=km
+New Line.line1 bus1=bus0 bus2=bus2 linecode=lc_1 length=1.0000 units=km
+New Line.line2 bus1=bus3 bus2=bus4 linecode=lc_2 length=1.0000 units=km
+New Line.line3 bus1=bus2 bus2=bus4 linecode=lc_3 length=1.0000 units=km
+New Line.line4 bus1=bus4 bus2=bus5 linecode=lc_4 length=1.0000 units=km
+New Line.line5 bus1=bus5 bus2=bus6 linecode=lc_5 length=1.0000 units=km
+New Line.line6 bus1=bus7 bus2=bus8 linecode=lc_6 length=1.0000 units=km
+New Line.line7 bus1=bus8 bus2=bus9 linecode=lc_7 length=1.0000 units=km
+New Line.line8 bus1=bus3 bus2=bus10 linecode=lc_8 length=1.0000 units=km
+New Line.line9 bus1=bus4 bus2=bus10 linecode=lc_9 length=1.0000 units=km
+New Line.line10 bus1=bus10 bus2=bus11 linecode=lc_10 length=1.0000 units=km
+New Line.line11 bus1=bus1 bus2=bus11 linecode=lc_11 length=1.0000 units=km
+New Line.line12 bus1=bus2 bus2=bus11 linecode=lc_12 length=1.0000 units=km
+New Line.line13 bus1=bus6 bus2=bus11 linecode=lc_13 length=1.0000 units=km
+New Line.line14 bus1=bus10 bus2=bus12 linecode=lc_14 length=1.0000 units=km
+New Line.line15 bus1=bus11 bus2=bus13 linecode=lc_15 length=1.0000 units=km
+New Line.line16 bus1=bus12 bus2=bus14 linecode=lc_16 length=1.0000 units=km
+New Line.line17 bus1=bus13 bus2=bus14 linecode=lc_17 length=1.0000 units=km
+New Line.line18 bus1=bus11 bus2=bus15 linecode=lc_18 length=1.0000 units=km
+New Line.line19 bus1=bus14 bus2=bus16 linecode=lc_19 length=1.0000 units=km
+New Line.line20 bus1=bus15 bus2=bus16 linecode=lc_20 length=1.0000 units=km
+New Line.line21 bus1=bus16 bus2=bus17 linecode=lc_21 length=1.0000 units=km
+New Line.line22 bus1=bus17 bus2=bus18 linecode=lc_22 length=1.0000 units=km
+New Line.line23 bus1=bus18 bus2=bus19 linecode=lc_23 length=1.0000 units=km
+New Line.line24 bus1=bus14 bus2=bus18 linecode=lc_24 length=1.0000 units=km
+New Line.line25 bus1=bus19 bus2=bus20 linecode=lc_25 length=1.0000 units=km
+New Line.line26 bus1=bus20 bus2=bus21 linecode=lc_26 length=1.0000 units=km
+New Line.line27 bus1=bus21 bus2=bus22 linecode=lc_27 length=1.0000 units=km
+New Line.line28 bus1=bus22 bus2=bus23 linecode=lc_28 length=1.0000 units=km
+New Line.line29 bus1=bus22 bus2=bus24 linecode=lc_29 length=1.0000 units=km
+New Line.line30 bus1=bus24 bus2=bus26 linecode=lc_30 length=1.0000 units=km
+New Line.line31 bus1=bus26 bus2=bus27 linecode=lc_31 length=1.0000 units=km
+New Line.line32 bus1=bus27 bus2=bus28 linecode=lc_32 length=1.0000 units=km
+New Line.line33 bus1=bus7 bus2=bus29 linecode=lc_33 length=1.0000 units=km
+New Line.line34 bus1=bus25 bus2=bus29 linecode=lc_34 length=1.0000 units=km
+New Line.line35 bus1=bus16 bus2=bus30 linecode=lc_35 length=1.0000 units=km
+New Line.line36 bus1=bus28 bus2=bus30 linecode=lc_36 length=1.0000 units=km
+New Line.line37 bus1=bus22 bus2=bus31 linecode=lc_37 length=1.0000 units=km
+New Line.line38 bus1=bus30 bus2=bus31 linecode=lc_38 length=1.0000 units=km
+New Line.line39 bus1=bus26 bus2=bus31 linecode=lc_39 length=1.0000 units=km
+New Line.line40 bus1=bus14 bus2=bus32 linecode=lc_40 length=1.0000 units=km
+New Line.line41 bus1=bus18 bus2=bus33 linecode=lc_41 length=1.0000 units=km
+New Line.line42 bus1=bus34 bus2=bus35 linecode=lc_42 length=1.0000 units=km
+New Line.line43 bus1=bus34 bus2=bus36 linecode=lc_43 length=1.0000 units=km
+New Line.line44 bus1=bus32 bus2=bus36 linecode=lc_44 length=1.0000 units=km
+New Line.line45 bus1=bus33 bus2=bus35 linecode=lc_45 length=1.0000 units=km
+New Line.line46 bus1=bus33 bus2=bus36 linecode=lc_46 length=1.0000 units=km
+New Line.line47 bus1=bus36 bus2=bus38 linecode=lc_47 length=1.0000 units=km
+New Line.line48 bus1=bus36 bus2=bus39 linecode=lc_48 length=1.0000 units=km
+New Line.line49 bus1=bus29 bus2=bus37 linecode=lc_49 length=1.0000 units=km
+New Line.line50 bus1=bus38 bus2=bus39 linecode=lc_50 length=1.0000 units=km
+New Line.line51 bus1=bus39 bus2=bus40 linecode=lc_51 length=1.0000 units=km
+New Line.line52 bus1=bus39 bus2=bus41 linecode=lc_52 length=1.0000 units=km
+New Line.line53 bus1=bus40 bus2=bus41 linecode=lc_53 length=1.0000 units=km
+New Line.line54 bus1=bus42 bus2=bus43 linecode=lc_54 length=1.0000 units=km
+New Line.line55 bus1=bus33 bus2=bus42 linecode=lc_55 length=1.0000 units=km
+New Line.line56 bus1=bus43 bus2=bus44 linecode=lc_56 length=1.0000 units=km
+New Line.line57 bus1=bus44 bus2=bus45 linecode=lc_57 length=1.0000 units=km
+New Line.line58 bus1=bus45 bus2=bus46 linecode=lc_58 length=1.0000 units=km
+New Line.line59 bus1=bus45 bus2=bus47 linecode=lc_59 length=1.0000 units=km
+New Line.line60 bus1=bus46 bus2=bus48 linecode=lc_60 length=1.0000 units=km
+New Line.line61 bus1=bus41 bus2=bus48 linecode=lc_61 length=1.0000 units=km
+New Line.line62 bus1=bus41 bus2=bus48 linecode=lc_61 length=1.0000 units=km
+New Line.line63 bus1=bus44 bus2=bus48 linecode=lc_62 length=1.0000 units=km
+New Line.line64 bus1=bus47 bus2=bus48 linecode=lc_63 length=1.0000 units=km
+New Line.line65 bus1=bus48 bus2=bus49 linecode=lc_64 length=1.0000 units=km
+New Line.line66 bus1=bus48 bus2=bus50 linecode=lc_65 length=1.0000 units=km
+New Line.line67 bus1=bus50 bus2=bus51 linecode=lc_66 length=1.0000 units=km
+New Line.line68 bus1=bus51 bus2=bus52 linecode=lc_67 length=1.0000 units=km
+New Line.line69 bus1=bus52 bus2=bus53 linecode=lc_68 length=1.0000 units=km
+New Line.line70 bus1=bus48 bus2=bus53 linecode=lc_69 length=1.0000 units=km
+New Line.line71 bus1=bus48 bus2=bus53 linecode=lc_70 length=1.0000 units=km
+New Line.line72 bus1=bus53 bus2=bus54 linecode=lc_71 length=1.0000 units=km
+New Line.line73 bus1=bus53 bus2=bus55 linecode=lc_72 length=1.0000 units=km
+New Line.line74 bus1=bus54 bus2=bus55 linecode=lc_73 length=1.0000 units=km
+New Line.line75 bus1=bus55 bus2=bus56 linecode=lc_74 length=1.0000 units=km
+New Line.line76 bus1=bus49 bus2=bus56 linecode=lc_75 length=1.0000 units=km
+New Line.line77 bus1=bus55 bus2=bus57 linecode=lc_74 length=1.0000 units=km
+New Line.line78 bus1=bus50 bus2=bus57 linecode=lc_76 length=1.0000 units=km
+New Line.line79 bus1=bus53 bus2=bus58 linecode=lc_77 length=1.0000 units=km
+New Line.line80 bus1=bus55 bus2=bus58 linecode=lc_78 length=1.0000 units=km
+New Line.line81 bus1=bus55 bus2=bus58 linecode=lc_79 length=1.0000 units=km
+New Line.line82 bus1=bus54 bus2=bus58 linecode=lc_80 length=1.0000 units=km
+New Line.line83 bus1=bus58 bus2=bus59 linecode=lc_81 length=1.0000 units=km
+New Line.line84 bus1=bus58 bus2=bus60 linecode=lc_82 length=1.0000 units=km
+New Line.line85 bus1=bus59 bus2=bus60 linecode=lc_83 length=1.0000 units=km
+New Line.line86 bus1=bus59 bus2=bus61 linecode=lc_84 length=1.0000 units=km
+New Line.line87 bus1=bus60 bus2=bus61 linecode=lc_85 length=1.0000 units=km
+New Line.line88 bus1=bus62 bus2=bus63 linecode=lc_86 length=1.0000 units=km
+New Line.line89 bus1=bus37 bus2=bus64 linecode=lc_87 length=1.0000 units=km
+New Line.line90 bus1=bus63 bus2=bus64 linecode=lc_88 length=1.0000 units=km
+New Line.line91 bus1=bus48 bus2=bus65 linecode=lc_89 length=1.0000 units=km
+New Line.line92 bus1=bus48 bus2=bus65 linecode=lc_89 length=1.0000 units=km
+New Line.line93 bus1=bus61 bus2=bus65 linecode=lc_90 length=1.0000 units=km
+New Line.line94 bus1=bus61 bus2=bus66 linecode=lc_91 length=1.0000 units=km
+New Line.line95 bus1=bus65 bus2=bus66 linecode=lc_92 length=1.0000 units=km
+New Line.line96 bus1=bus46 bus2=bus68 linecode=lc_93 length=1.0000 units=km
+New Line.line97 bus1=bus48 bus2=bus68 linecode=lc_94 length=1.0000 units=km
+New Line.line98 bus1=bus68 bus2=bus69 linecode=lc_95 length=1.0000 units=km
+New Line.line99 bus1=bus23 bus2=bus69 linecode=lc_96 length=1.0000 units=km
+New Line.line100 bus1=bus69 bus2=bus70 linecode=lc_97 length=1.0000 units=km
+New Line.line101 bus1=bus23 bus2=bus71 linecode=lc_98 length=1.0000 units=km
+New Line.line102 bus1=bus70 bus2=bus71 linecode=lc_99 length=1.0000 units=km
+New Line.line103 bus1=bus70 bus2=bus72 linecode=lc_100 length=1.0000 units=km
+New Line.line104 bus1=bus69 bus2=bus73 linecode=lc_101 length=1.0000 units=km
+New Line.line105 bus1=bus69 bus2=bus74 linecode=lc_102 length=1.0000 units=km
+New Line.line106 bus1=bus68 bus2=bus74 linecode=lc_103 length=1.0000 units=km
+New Line.line107 bus1=bus73 bus2=bus74 linecode=lc_104 length=1.0000 units=km
+New Line.line108 bus1=bus75 bus2=bus76 linecode=lc_105 length=1.0000 units=km
+New Line.line109 bus1=bus68 bus2=bus76 linecode=lc_106 length=1.0000 units=km
+New Line.line110 bus1=bus74 bus2=bus76 linecode=lc_107 length=1.0000 units=km
+New Line.line111 bus1=bus76 bus2=bus77 linecode=lc_108 length=1.0000 units=km
+New Line.line112 bus1=bus77 bus2=bus78 linecode=lc_109 length=1.0000 units=km
+New Line.line113 bus1=bus76 bus2=bus79 linecode=lc_110 length=1.0000 units=km
+New Line.line114 bus1=bus76 bus2=bus79 linecode=lc_111 length=1.0000 units=km
+New Line.line115 bus1=bus78 bus2=bus79 linecode=lc_112 length=1.0000 units=km
+New Line.line116 bus1=bus76 bus2=bus81 linecode=lc_113 length=1.0000 units=km
+New Line.line117 bus1=bus81 bus2=bus82 linecode=lc_114 length=1.0000 units=km
+New Line.line118 bus1=bus82 bus2=bus83 linecode=lc_115 length=1.0000 units=km
+New Line.line119 bus1=bus82 bus2=bus84 linecode=lc_116 length=1.0000 units=km
+New Line.line120 bus1=bus83 bus2=bus84 linecode=lc_117 length=1.0000 units=km
+New Line.line121 bus1=bus84 bus2=bus85 linecode=lc_118 length=1.0000 units=km
+New Line.line122 bus1=bus84 bus2=bus87 linecode=lc_119 length=1.0000 units=km
+New Line.line123 bus1=bus84 bus2=bus88 linecode=lc_120 length=1.0000 units=km
+New Line.line124 bus1=bus87 bus2=bus88 linecode=lc_121 length=1.0000 units=km
+New Line.line125 bus1=bus88 bus2=bus89 linecode=lc_122 length=1.0000 units=km
+New Line.line126 bus1=bus88 bus2=bus89 linecode=lc_123 length=1.0000 units=km
+New Line.line127 bus1=bus89 bus2=bus90 linecode=lc_124 length=1.0000 units=km
+New Line.line128 bus1=bus88 bus2=bus91 linecode=lc_125 length=1.0000 units=km
+New Line.line129 bus1=bus88 bus2=bus91 linecode=lc_126 length=1.0000 units=km
+New Line.line130 bus1=bus90 bus2=bus91 linecode=lc_127 length=1.0000 units=km
+New Line.line131 bus1=bus91 bus2=bus92 linecode=lc_128 length=1.0000 units=km
+New Line.line132 bus1=bus91 bus2=bus93 linecode=lc_129 length=1.0000 units=km
+New Line.line133 bus1=bus92 bus2=bus93 linecode=lc_130 length=1.0000 units=km
+New Line.line134 bus1=bus93 bus2=bus94 linecode=lc_131 length=1.0000 units=km
+New Line.line135 bus1=bus79 bus2=bus95 linecode=lc_132 length=1.0000 units=km
+New Line.line136 bus1=bus81 bus2=bus95 linecode=lc_133 length=1.0000 units=km
+New Line.line137 bus1=bus93 bus2=bus95 linecode=lc_134 length=1.0000 units=km
+New Line.line138 bus1=bus79 bus2=bus96 linecode=lc_135 length=1.0000 units=km
+New Line.line139 bus1=bus79 bus2=bus97 linecode=lc_136 length=1.0000 units=km
+New Line.line140 bus1=bus79 bus2=bus98 linecode=lc_137 length=1.0000 units=km
+New Line.line141 bus1=bus91 bus2=bus99 linecode=lc_138 length=1.0000 units=km
+New Line.line142 bus1=bus93 bus2=bus99 linecode=lc_139 length=1.0000 units=km
+New Line.line143 bus1=bus94 bus2=bus95 linecode=lc_140 length=1.0000 units=km
+New Line.line144 bus1=bus95 bus2=bus96 linecode=lc_141 length=1.0000 units=km
+New Line.line145 bus1=bus97 bus2=bus99 linecode=lc_142 length=1.0000 units=km
+New Line.line146 bus1=bus98 bus2=bus99 linecode=lc_143 length=1.0000 units=km
+New Line.line147 bus1=bus99 bus2=bus100 linecode=lc_144 length=1.0000 units=km
+New Line.line148 bus1=bus91 bus2=bus101 linecode=lc_145 length=1.0000 units=km
+New Line.line149 bus1=bus100 bus2=bus101 linecode=lc_146 length=1.0000 units=km
+New Line.line150 bus1=bus99 bus2=bus102 linecode=lc_147 length=1.0000 units=km
+New Line.line151 bus1=bus99 bus2=bus103 linecode=lc_148 length=1.0000 units=km
+New Line.line152 bus1=bus102 bus2=bus103 linecode=lc_149 length=1.0000 units=km
+New Line.line153 bus1=bus102 bus2=bus104 linecode=lc_150 length=1.0000 units=km
+New Line.line154 bus1=bus99 bus2=bus105 linecode=lc_151 length=1.0000 units=km
+New Line.line155 bus1=bus103 bus2=bus104 linecode=lc_152 length=1.0000 units=km
+New Line.line156 bus1=bus104 bus2=bus105 linecode=lc_153 length=1.0000 units=km
+New Line.line157 bus1=bus104 bus2=bus106 linecode=lc_154 length=1.0000 units=km
+New Line.line158 bus1=bus104 bus2=bus107 linecode=lc_155 length=1.0000 units=km
+New Line.line159 bus1=bus105 bus2=bus106 linecode=lc_154 length=1.0000 units=km
+New Line.line160 bus1=bus107 bus2=bus108 linecode=lc_156 length=1.0000 units=km
+New Line.line161 bus1=bus102 bus2=bus109 linecode=lc_157 length=1.0000 units=km
+New Line.line162 bus1=bus108 bus2=bus109 linecode=lc_158 length=1.0000 units=km
+New Line.line163 bus1=bus109 bus2=bus110 linecode=lc_159 length=1.0000 units=km
+New Line.line164 bus1=bus109 bus2=bus111 linecode=lc_160 length=1.0000 units=km
+New Line.line165 bus1=bus16 bus2=bus112 linecode=lc_161 length=1.0000 units=km
+New Line.line166 bus1=bus31 bus2=bus112 linecode=lc_162 length=1.0000 units=km
+New Line.line167 bus1=bus31 bus2=bus113 linecode=lc_163 length=1.0000 units=km
+New Line.line168 bus1=bus26 bus2=bus114 linecode=lc_164 length=1.0000 units=km
+New Line.line169 bus1=bus113 bus2=bus114 linecode=lc_165 length=1.0000 units=km
+New Line.line170 bus1=bus11 bus2=bus116 linecode=lc_166 length=1.0000 units=km
+New Line.line171 bus1=bus74 bus2=bus117 linecode=lc_167 length=1.0000 units=km
+New Line.line172 bus1=bus75 bus2=bus117 linecode=lc_168 length=1.0000 units=km
+New Transformer.trafo0 phases=3 windings=2
+~ wdg=1 bus=bus7 kv=339.825000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus4 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=264.330000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo1 phases=3 windings=2
+~ wdg=1 bus=bus25 kv=331.200000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus24 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=378.180000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo2 phases=3 windings=2
+~ wdg=1 bus=bus29 kv=331.200000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus16 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=384.120000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo3 phases=3 windings=2
+~ wdg=1 bus=bus37 kv=322.575000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus36 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=371.250000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo4 phases=3 windings=2
+~ wdg=1 bus=bus62 kv=331.200000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus58 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=382.140000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo5 phases=3 windings=2
+~ wdg=1 bus=bus63 kv=339.825000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus60 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=265.320000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo6 phases=3 windings=2
+~ wdg=1 bus=bus64 kv=322.575000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus65 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=366.300000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo7 phases=3 windings=2
+~ wdg=1 bus=bus64 kv=345.000000 kva=9900000.00 %r=6.831000 conn=wye
+~ wdg=2 bus=bus67 kv=161.000000 kva=9900000.00 %r=6.831000 conn=wye
+~ xhl=158.400000 %noloadloss=0.000000 %imag=-0.644444
+New Transformer.trafo8 phases=3 windings=2
+~ wdg=1 bus=bus67 kv=150.535000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus68 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=366.300000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo9 phases=3 windings=2
+~ wdg=1 bus=bus80 kv=345.000000 kva=9900000.00 %r=8.662500 conn=wye
+~ wdg=2 bus=bus67 kv=161.000000 kva=9900000.00 %r=8.662500 conn=wye
+~ xhl=199.980000 %noloadloss=0.000000 %imag=-0.816162
+New Transformer.trafo10 phases=3 windings=2
+~ wdg=1 bus=bus80 kv=322.575000 kva=9900000.00 %r=0.000000 conn=wye
+~ wdg=2 bus=bus79 kv=138.000000 kva=9900000.00 %r=0.000000 conn=wye
+~ xhl=366.300000 %noloadloss=0.000000 %imag=0.000000
+New Transformer.trafo11 phases=3 windings=2
+~ wdg=1 bus=bus86 kv=161.000000 kva=9900000.00 %r=139.986000 conn=wye
+~ wdg=2 bus=bus85 kv=138.000000 kva=9900000.00 %r=139.986000 conn=wye
+~ xhl=2053.260000 %noloadloss=0.000000 %imag=-0.044949
+New Transformer.trafo12 phases=3 windings=2
+~ wdg=1 bus=bus115 kv=345.000000 kva=9900000.00 %r=1.683000 conn=wye
+~ wdg=2 bus=bus67 kv=161.000000 kva=9900000.00 %r=1.683000 conn=wye
+~ xhl=40.095000 %noloadloss=0.000000 %imag=-0.165657
+New Load.load0 bus1=bus0 kv=138.0000 kw=51000.0000 kvar=27000.0000 model=1 phases=3
+New Load.load1 bus1=bus1 kv=138.0000 kw=20000.0000 kvar=9000.0000 model=1 phases=3
+New Load.load2 bus1=bus2 kv=138.0000 kw=39000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load3 bus1=bus3 kv=138.0000 kw=39000.0000 kvar=12000.0000 model=1 phases=3
+New Load.load4 bus1=bus5 kv=138.0000 kw=52000.0000 kvar=22000.0000 model=1 phases=3
+New Load.load5 bus1=bus6 kv=138.0000 kw=19000.0000 kvar=2000.0000 model=1 phases=3
+New Load.load6 bus1=bus7 kv=345.0000 kw=28000.0000 kvar=0.0000 model=1 phases=3
+New Load.load7 bus1=bus10 kv=138.0000 kw=70000.0000 kvar=23000.0000 model=1 phases=3
+New Load.load8 bus1=bus11 kv=138.0000 kw=47000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load9 bus1=bus12 kv=138.0000 kw=34000.0000 kvar=16000.0000 model=1 phases=3
+New Load.load10 bus1=bus13 kv=138.0000 kw=14000.0000 kvar=1000.0000 model=1 phases=3
+New Load.load11 bus1=bus14 kv=138.0000 kw=90000.0000 kvar=30000.0000 model=1 phases=3
+New Load.load12 bus1=bus15 kv=138.0000 kw=25000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load13 bus1=bus16 kv=138.0000 kw=11000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load14 bus1=bus17 kv=138.0000 kw=60000.0000 kvar=34000.0000 model=1 phases=3
+New Load.load15 bus1=bus18 kv=138.0000 kw=45000.0000 kvar=25000.0000 model=1 phases=3
+New Load.load16 bus1=bus19 kv=138.0000 kw=18000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load17 bus1=bus20 kv=138.0000 kw=14000.0000 kvar=8000.0000 model=1 phases=3
+New Load.load18 bus1=bus21 kv=138.0000 kw=10000.0000 kvar=5000.0000 model=1 phases=3
+New Load.load19 bus1=bus22 kv=138.0000 kw=7000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load20 bus1=bus23 kv=138.0000 kw=13000.0000 kvar=0.0000 model=1 phases=3
+New Load.load21 bus1=bus26 kv=138.0000 kw=71000.0000 kvar=13000.0000 model=1 phases=3
+New Load.load22 bus1=bus27 kv=138.0000 kw=17000.0000 kvar=7000.0000 model=1 phases=3
+New Load.load23 bus1=bus28 kv=138.0000 kw=24000.0000 kvar=4000.0000 model=1 phases=3
+New Load.load24 bus1=bus30 kv=138.0000 kw=43000.0000 kvar=27000.0000 model=1 phases=3
+New Load.load25 bus1=bus31 kv=138.0000 kw=59000.0000 kvar=23000.0000 model=1 phases=3
+New Load.load26 bus1=bus32 kv=138.0000 kw=23000.0000 kvar=9000.0000 model=1 phases=3
+New Load.load27 bus1=bus33 kv=138.0000 kw=59000.0000 kvar=26000.0000 model=1 phases=3
+New Load.load28 bus1=bus34 kv=138.0000 kw=33000.0000 kvar=9000.0000 model=1 phases=3
+New Load.load29 bus1=bus35 kv=138.0000 kw=31000.0000 kvar=17000.0000 model=1 phases=3
+New Load.load30 bus1=bus38 kv=138.0000 kw=27000.0000 kvar=11000.0000 model=1 phases=3
+New Load.load31 bus1=bus39 kv=138.0000 kw=66000.0000 kvar=23000.0000 model=1 phases=3
+New Load.load32 bus1=bus40 kv=138.0000 kw=37000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load33 bus1=bus41 kv=138.0000 kw=96000.0000 kvar=23000.0000 model=1 phases=3
+New Load.load34 bus1=bus42 kv=138.0000 kw=18000.0000 kvar=7000.0000 model=1 phases=3
+New Load.load35 bus1=bus43 kv=138.0000 kw=16000.0000 kvar=8000.0000 model=1 phases=3
+New Load.load36 bus1=bus44 kv=138.0000 kw=53000.0000 kvar=22000.0000 model=1 phases=3
+New Load.load37 bus1=bus45 kv=138.0000 kw=28000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load38 bus1=bus46 kv=138.0000 kw=34000.0000 kvar=0.0000 model=1 phases=3
+New Load.load39 bus1=bus47 kv=138.0000 kw=20000.0000 kvar=11000.0000 model=1 phases=3
+New Load.load40 bus1=bus48 kv=138.0000 kw=87000.0000 kvar=30000.0000 model=1 phases=3
+New Load.load41 bus1=bus49 kv=138.0000 kw=17000.0000 kvar=4000.0000 model=1 phases=3
+New Load.load42 bus1=bus50 kv=138.0000 kw=17000.0000 kvar=8000.0000 model=1 phases=3
+New Load.load43 bus1=bus51 kv=138.0000 kw=18000.0000 kvar=5000.0000 model=1 phases=3
+New Load.load44 bus1=bus52 kv=138.0000 kw=23000.0000 kvar=11000.0000 model=1 phases=3
+New Load.load45 bus1=bus53 kv=138.0000 kw=113000.0000 kvar=32000.0000 model=1 phases=3
+New Load.load46 bus1=bus54 kv=138.0000 kw=63000.0000 kvar=22000.0000 model=1 phases=3
+New Load.load47 bus1=bus55 kv=138.0000 kw=84000.0000 kvar=18000.0000 model=1 phases=3
+New Load.load48 bus1=bus56 kv=138.0000 kw=12000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load49 bus1=bus57 kv=138.0000 kw=12000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load50 bus1=bus58 kv=138.0000 kw=277000.0000 kvar=113000.0000 model=1 phases=3
+New Load.load51 bus1=bus59 kv=138.0000 kw=78000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load52 bus1=bus61 kv=138.0000 kw=77000.0000 kvar=14000.0000 model=1 phases=3
+New Load.load53 bus1=bus65 kv=138.0000 kw=39000.0000 kvar=18000.0000 model=1 phases=3
+New Load.load54 bus1=bus66 kv=138.0000 kw=28000.0000 kvar=7000.0000 model=1 phases=3
+New Load.load55 bus1=bus69 kv=138.0000 kw=66000.0000 kvar=20000.0000 model=1 phases=3
+New Load.load56 bus1=bus71 kv=138.0000 kw=12000.0000 kvar=0.0000 model=1 phases=3
+New Load.load57 bus1=bus72 kv=138.0000 kw=6000.0000 kvar=0.0000 model=1 phases=3
+New Load.load58 bus1=bus73 kv=138.0000 kw=68000.0000 kvar=27000.0000 model=1 phases=3
+New Load.load59 bus1=bus74 kv=138.0000 kw=47000.0000 kvar=11000.0000 model=1 phases=3
+New Load.load60 bus1=bus75 kv=138.0000 kw=68000.0000 kvar=36000.0000 model=1 phases=3
+New Load.load61 bus1=bus76 kv=138.0000 kw=61000.0000 kvar=28000.0000 model=1 phases=3
+New Load.load62 bus1=bus77 kv=138.0000 kw=71000.0000 kvar=26000.0000 model=1 phases=3
+New Load.load63 bus1=bus78 kv=138.0000 kw=39000.0000 kvar=32000.0000 model=1 phases=3
+New Load.load64 bus1=bus79 kv=138.0000 kw=130000.0000 kvar=26000.0000 model=1 phases=3
+New Load.load65 bus1=bus81 kv=138.0000 kw=54000.0000 kvar=27000.0000 model=1 phases=3
+New Load.load66 bus1=bus82 kv=138.0000 kw=20000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load67 bus1=bus83 kv=138.0000 kw=11000.0000 kvar=7000.0000 model=1 phases=3
+New Load.load68 bus1=bus84 kv=138.0000 kw=24000.0000 kvar=15000.0000 model=1 phases=3
+New Load.load69 bus1=bus85 kv=138.0000 kw=21000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load70 bus1=bus87 kv=138.0000 kw=48000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load71 bus1=bus89 kv=138.0000 kw=163000.0000 kvar=42000.0000 model=1 phases=3
+New Load.load72 bus1=bus90 kv=138.0000 kw=10000.0000 kvar=0.0000 model=1 phases=3
+New Load.load73 bus1=bus91 kv=138.0000 kw=65000.0000 kvar=10000.0000 model=1 phases=3
+New Load.load74 bus1=bus92 kv=138.0000 kw=12000.0000 kvar=7000.0000 model=1 phases=3
+New Load.load75 bus1=bus93 kv=138.0000 kw=30000.0000 kvar=16000.0000 model=1 phases=3
+New Load.load76 bus1=bus94 kv=138.0000 kw=42000.0000 kvar=31000.0000 model=1 phases=3
+New Load.load77 bus1=bus95 kv=138.0000 kw=38000.0000 kvar=15000.0000 model=1 phases=3
+New Load.load78 bus1=bus96 kv=138.0000 kw=15000.0000 kvar=9000.0000 model=1 phases=3
+New Load.load79 bus1=bus97 kv=138.0000 kw=34000.0000 kvar=8000.0000 model=1 phases=3
+New Load.load80 bus1=bus98 kv=138.0000 kw=42000.0000 kvar=0.0000 model=1 phases=3
+New Load.load81 bus1=bus99 kv=138.0000 kw=37000.0000 kvar=18000.0000 model=1 phases=3
+New Load.load82 bus1=bus100 kv=138.0000 kw=22000.0000 kvar=15000.0000 model=1 phases=3
+New Load.load83 bus1=bus101 kv=138.0000 kw=5000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load84 bus1=bus102 kv=138.0000 kw=23000.0000 kvar=16000.0000 model=1 phases=3
+New Load.load85 bus1=bus103 kv=138.0000 kw=38000.0000 kvar=25000.0000 model=1 phases=3
+New Load.load86 bus1=bus104 kv=138.0000 kw=31000.0000 kvar=26000.0000 model=1 phases=3
+New Load.load87 bus1=bus105 kv=138.0000 kw=43000.0000 kvar=16000.0000 model=1 phases=3
+New Load.load88 bus1=bus106 kv=138.0000 kw=50000.0000 kvar=12000.0000 model=1 phases=3
+New Load.load89 bus1=bus107 kv=138.0000 kw=2000.0000 kvar=1000.0000 model=1 phases=3
+New Load.load90 bus1=bus108 kv=138.0000 kw=8000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load91 bus1=bus109 kv=138.0000 kw=39000.0000 kvar=30000.0000 model=1 phases=3
+New Load.load92 bus1=bus111 kv=138.0000 kw=68000.0000 kvar=13000.0000 model=1 phases=3
+New Load.load93 bus1=bus112 kv=138.0000 kw=6000.0000 kvar=0.0000 model=1 phases=3
+New Load.load94 bus1=bus113 kv=138.0000 kw=8000.0000 kvar=3000.0000 model=1 phases=3
+New Load.load95 bus1=bus114 kv=138.0000 kw=22000.0000 kvar=7000.0000 model=1 phases=3
+New Load.load96 bus1=bus115 kv=345.0000 kw=184000.0000 kvar=0.0000 model=1 phases=3
+New Load.load97 bus1=bus116 kv=138.0000 kw=20000.0000 kvar=8000.0000 model=1 phases=3
+New Load.load98 bus1=bus117 kv=138.0000 kw=33000.0000 kvar=15000.0000 model=1 phases=3
+New Generator.gen0 bus1=bus0 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen1 bus1=bus3 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen2 bus1=bus5 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen3 bus1=bus7 kv=345.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen4 bus1=bus9 kv=345.0000 kw=450000.0000 pf=0.95 model=1 phases=3
+New Generator.gen5 bus1=bus11 kv=138.0000 kw=85000.0000 pf=0.95 model=1 phases=3
+New Generator.gen6 bus1=bus14 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen7 bus1=bus17 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen8 bus1=bus18 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen9 bus1=bus23 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen10 bus1=bus24 kv=138.0000 kw=220000.0000 pf=0.95 model=1 phases=3
+New Generator.gen11 bus1=bus25 kv=345.0000 kw=314000.0000 pf=0.95 model=1 phases=3
+New Generator.gen12 bus1=bus26 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen13 bus1=bus30 kv=138.0000 kw=7000.0000 pf=0.95 model=1 phases=3
+New Generator.gen14 bus1=bus31 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen15 bus1=bus33 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen16 bus1=bus35 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen17 bus1=bus39 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen18 bus1=bus41 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen19 bus1=bus45 kv=138.0000 kw=19000.0000 pf=0.95 model=1 phases=3
+New Generator.gen20 bus1=bus48 kv=138.0000 kw=204000.0000 pf=0.95 model=1 phases=3
+New Generator.gen21 bus1=bus53 kv=138.0000 kw=48000.0000 pf=0.95 model=1 phases=3
+New Generator.gen22 bus1=bus54 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen23 bus1=bus55 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen24 bus1=bus58 kv=138.0000 kw=155000.0000 pf=0.95 model=1 phases=3
+New Generator.gen25 bus1=bus60 kv=138.0000 kw=160000.0000 pf=0.95 model=1 phases=3
+New Generator.gen26 bus1=bus61 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen27 bus1=bus64 kv=345.0000 kw=391000.0000 pf=0.95 model=1 phases=3
+New Generator.gen28 bus1=bus65 kv=138.0000 kw=392000.0000 pf=0.95 model=1 phases=3
+New Generator.gen29 bus1=bus69 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen30 bus1=bus71 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen31 bus1=bus72 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen32 bus1=bus73 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen33 bus1=bus75 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen34 bus1=bus76 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen35 bus1=bus79 kv=138.0000 kw=477000.0000 pf=0.95 model=1 phases=3
+New Generator.gen36 bus1=bus84 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen37 bus1=bus86 kv=161.0000 kw=4000.0000 pf=0.95 model=1 phases=3
+New Generator.gen38 bus1=bus88 kv=138.0000 kw=607000.0000 pf=0.95 model=1 phases=3
+New Generator.gen39 bus1=bus89 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen40 bus1=bus90 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen41 bus1=bus91 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen42 bus1=bus98 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen43 bus1=bus99 kv=138.0000 kw=252000.0000 pf=0.95 model=1 phases=3
+New Generator.gen44 bus1=bus102 kv=138.0000 kw=40000.0000 pf=0.95 model=1 phases=3
+New Generator.gen45 bus1=bus103 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen46 bus1=bus104 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen47 bus1=bus106 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen48 bus1=bus109 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen49 bus1=bus110 kv=138.0000 kw=36000.0000 pf=0.95 model=1 phases=3
+New Generator.gen50 bus1=bus111 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen51 bus1=bus112 kv=138.0000 kw=0.0000 pf=0.95 model=1 phases=3
+New Generator.gen52 bus1=bus115 kv=345.0000 kw=0.0000 pf=0.95 model=1 phases=3
+Set VoltageBases=[138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,345.0000,345.0000,345.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,345.0000,138.0000,138.0000,138.0000,345.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,345.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,345.0000,345.0000,345.0000,138.0000,138.0000,161.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,345.0000,138.0000,138.0000,138.0000,138.0000,138.0000,161.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,138.0000,345.0000,138.0000,138.0000]
+CalcVoltageBases
+Solve

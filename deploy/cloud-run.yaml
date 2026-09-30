@@ -1,0 +1,59 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: di-validator-api
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/minScale: '1'
+    run.googleapis.com/maxScale: '1'
+spec:
+  template:
+    metadata:
+      annotations:
+        run.googleapis.com/execution-environment: gen2
+        run.googleapis.com/cpu-throttling: 'false'
+        run.googleapis.com/startup-cpu-boost: 'true'
+        run.googleapis.com/network-interfaces: '[{"network":"scar-network","subnetwork":"scar-us-west2"}]'
+        run.googleapis.com/vpc-access-egress: private-ranges-only
+        autoscaling.knative.dev/maxScale: '1'
+    spec:
+      serviceAccountName: di-validator@thtank.iam.gserviceaccount.com
+      containerConcurrency: 8
+      timeoutSeconds: 3600
+      containers:
+      - image: us-west2-docker.pkg.dev/thtank/di-validator/backend:20260921-2
+        ports:
+        - containerPort: 8080
+        resources:
+          limits:
+            cpu: '4'
+            memory: 8Gi
+        env:
+        - name: DI_DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: di-validator-database-url
+              key: latest
+        - name: DI_GATEWAY_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: di-validator-gateway-token
+              key: latest
+        startupProbe:
+          httpGet:
+            path: /api/v1/health
+            port: 8080
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 24
+        volumeMounts:
+        - name: workspace
+          mountPath: /data
+      volumes:
+      - name: workspace
+        csi:
+          driver: gcsfuse.run.googleapis.com
+          readOnly: false
+          volumeAttributes:
+            bucketName: thtank-di-validator
+            mountOptions: 'metadata-cache-ttl-secs=0'

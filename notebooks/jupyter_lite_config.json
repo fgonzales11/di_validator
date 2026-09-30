@@ -1,0 +1,10 @@
+{
+  "LiteBuildConfig": {
+    "extra_ignore_contents": ["__pycache__", "\\.pyc$"]
+  },
+  "PipliteAddon": {
+    "piplite_urls": [
+      "https://files.pythonhosted.org/packages/60/97/891a0971e1e4a8c5d2b20bbe0e524dc04548d2307fee33cdeba148fd4fc7/comm-0.2.3-py3-none-any.whl"
+    ]
+  }
+}

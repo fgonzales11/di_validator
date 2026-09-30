@@ -1,0 +1,16 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  env: ['DOCKER_BUILDKIT=1']
+  args:
+  - build
+  - --file=deploy/Dockerfile
+  - --tag=us-west2-docker.pkg.dev/thtank/di-validator/backend:20260921-2
+  - .
+images:
+- us-west2-docker.pkg.dev/thtank/di-validator/backend:20260921-2
+timeout: 3600s
+options:
+  machineType: E2_HIGHCPU_8
+  logging: GCS_ONLY
+serviceAccount: projects/thtank/serviceAccounts/di-validator@thtank.iam.gserviceaccount.com
+logsBucket: gs://thtank-di-validator/build-logs

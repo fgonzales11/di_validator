@@ -1,0 +1,12 @@
+#localdb = 'C:/Data/AMI_ML_DB/ev.db'
+localdb = "D:\AMI_ML_DB\EV2\ev.db"
+stage_serv, stage_db = 'lasooppr01stg01','ETL'
+weather_serv, weather_db = 'lasooppr01sql03', 'Weather'
+root = 'C:/code/AMI_ML/Code'
+backup = 'D:/AMI_ML_DB/'
+#localdbs = 'C:/Data/AMI_ML_DB/'
+models = root+'/DataManagement/models/'
+notebooks = root+'/notebooks'
+connection_serv, connection_db = 'lasooppr01ADM01', 'ETL'
+prod=True
+timeout = 30

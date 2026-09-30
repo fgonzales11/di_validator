@@ -1,0 +1,2 @@
+import {defineConfig,devices} from '@playwright/test'
+export default defineConfig({testDir:'./e2e',timeout:90000,expect:{timeout:30000},fullyParallel:false,workers:1,reporter:'list',use:{baseURL:'http://127.0.0.1:8765',trace:'retain-on-failure'},projects:[{name:'desktop',use:{...devices['Desktop Chrome'],viewport:{width:1440,height:1000}}},{name:'tablet',use:{...devices['Desktop Chrome'],viewport:{width:820,height:1180}}},{name:'phone',use:{...devices['Desktop Chrome'],viewport:{width:390,height:844},isMobile:true,hasTouch:true}}]})

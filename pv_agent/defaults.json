@@ -1,0 +1,18 @@
+{
+  "latitude": "999.0",
+  "longitude": "999.0",
+  "polarity": "1.0",
+  "power_scale": "1.0",
+  "reactive_scale": "1.0",
+  "min_coverage": "0.9",
+  "export_threshold_kw": "0.05",
+  "export_fraction": "0.05",
+  "valley_threshold": "0.55",
+  "valley_fraction": "0.35",
+  "valley_median": "0.8",
+  "min_r2": "0.5",
+  "max_nrmse": "0.25",
+  "q_margin": "0.1",
+  "storage": "0",
+  "other_generation": "0"
+}

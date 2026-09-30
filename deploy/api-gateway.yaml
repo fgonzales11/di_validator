@@ -1,0 +1,40 @@
+swagger: '2.0'
+info:
+  title: DI Validator private backend bridge
+  version: '1.0'
+schemes: [https]
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: x-api-key
+    in: header
+security:
+- api_key: []
+x-google-backend:
+  address: https://di-validator-api-7u6s6ht2pq-wl.a.run.app
+  jwt_audience: https://di-validator-api-7u6s6ht2pq-wl.a.run.app
+  path_translation: APPEND_PATH_TO_ADDRESS
+  deadline: 600.0
+paths:
+  /{path=**}:
+    parameters:
+    - name: path
+      in: path
+      type: string
+      required: true
+    get:
+      operationId: getResource
+      responses:
+        '200': {description: Backend response}
+    head:
+      operationId: headResource
+      responses:
+        '200': {description: Backend response}
+    post:
+      operationId: postResource
+      responses:
+        '200': {description: Backend response}
+    options:
+      operationId: optionsResource
+      responses:
+        '200': {description: Backend response}

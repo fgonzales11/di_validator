@@ -1,0 +1,67 @@
+{
+  "method": "single-ended simple reactance",
+  "fault_loop": "AG",
+  "estimated_distance_km": 0.8908903618650766,
+  "distance_percent_of_line": 1.7817807237301535,
+  "within_line": true,
+  "ground_compensated": false,
+  "uncompensated_ground_estimate": true,
+  "k0_real": 0.0,
+  "k0_imag": 0.0,
+  "cycle_min_km": 0.890626208653485,
+  "cycle_max_km": 0.9040461028154484,
+  "cycles_used": 3,
+  "cycles_skipped_low_current": 0,
+  "cycles": [
+    {
+      "cycle": 1,
+      "start_sample": 140,
+      "stop_sample": 180,
+      "start_after_fault_ms": 20.0,
+      "stop_after_fault_ms": 40.0,
+      "loop_current_rms_ka": 151.1599920603809,
+      "loop_voltage_rms_kv": 59.504045488369584,
+      "r_apparent_ohm": 0.15553771508310155,
+      "x_apparent_ohm": 0.36161844112617936,
+      "distance_km": 0.9040461028154484
+    },
+    {
+      "cycle": 2,
+      "start_sample": 180,
+      "stop_sample": 220,
+      "start_after_fault_ms": 40.0,
+      "stop_after_fault_ms": 60.0,
+      "loop_current_rms_ka": 156.54809851408174,
+      "loop_voltage_rms_kv": 59.71895992647195,
+      "r_apparent_ohm": 0.13613365683240014,
+      "x_apparent_ohm": 0.35635614474603067,
+      "distance_km": 0.8908903618650766
+    },
+    {
+      "cycle": 3,
+      "start_sample": 220,
+      "stop_sample": 260,
+      "start_after_fault_ms": 60.0,
+      "stop_after_fault_ms": 80.0,
+      "loop_current_rms_ka": 156.6415315007249,
+      "loop_voltage_rms_kv": 59.722157039797075,
+      "r_apparent_ohm": 0.13582960433494137,
+      "x_apparent_ohm": 0.356250483461394,
+      "distance_km": 0.890626208653485
+    }
+  ],
+  "source_record": "1A_val1",
+  "loop_selection": "heuristic AUTO: 1ph-G, phase RMS [1.419808e+02 6.150000e-02 5.790000e-02] kA",
+  "inception_source": "detected inception time",
+  "line_parameters": {
+    "Unom_kv": 110.0,
+    "L_km": 50.0,
+    "r1_ohm_km": 0.1,
+    "x1_ohm_km": 0.4,
+    "r0_ohm_km": null,
+    "x0_ohm_km": null
+  },
+  "sampling_frequency_hz": 2000.0,
+  "grid_frequency_hz": 50.0,
+  "true_distance_km": null
+}

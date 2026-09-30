@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "hardware": "4.2",
+  "meter_family": "Gen5 Riva",
+  "metrology": "polyphase",
+  "sdk_version": "3.0.0",
+  "documented_release_pair": {
+    "firmware": "50.10.312.2",
+    "appserv": "2.0.581.0"
+  },
+  "package_selector": "GENX_PP=50.10.312.2,2.0.581.0",
+  "hardware_ids_from_sdk": [218169858, 218170370, 218170626, 218169857, 218170369, 218170625],
+  "documented_platform_container_limits": {
+    "ram_kb": 65000,
+    "cpu_percent": 30,
+    "cpu_raw_document_value": 300000,
+    "flash_kb": 40000,
+    "maximum_binary_package_mb": 10,
+    "maximum_processes": 50,
+    "maximum_open_files": 1250
+  },
+  "agent_policy_unchanged": {"ram_kb": 2048, "cpu_percent": 2, "flash_kb": 2048},
+  "required_input_channels": ["IA", "IB", "IC", "UA", "UB", "UC"],
+  "required_input_type": "synchronized instantaneous calibrated waveform samples in A and V",
+  "future_stream_candidate": "ApiSubscribeToPeriodicDataHS",
+  "live_acquisition_implemented": false,
+  "meter_resource_qualified": false,
+  "source": {
+    "document": "Distributed Intelligence (DI) Software Development Kit (SDK) Documentation and Release Notes.docx",
+    "revision": "REV 007",
+    "date": "2026-07-22",
+    "sections": ["Meter HW 4.2 Gen5 Riva network technical specifications", "SDK 3.0.0 release notes"],
+    "api_header": "RIVA_AGENTSUPPORT/Workspace/TargetRelease/Libraries/AgentSupport/AgentSupport_Download-prefix/src/AgentSupport_Download/include/Itron/AgentApiHS.h"
+  }
+}

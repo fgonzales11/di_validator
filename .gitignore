@@ -1,0 +1,103 @@
+# Python environments, caches, and packaging
+.venv/
+.venv.*/
+.build-venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+build/
+dist/
+*.whl
+
+# Frontend dependencies and generated files (including renamed backups)
+node_modules/
+node_modules.*/
+.vite/
+*.tsbuildinfo
+playwright-report/
+test-results/
+test-artifacts/
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+# Generated control-step plots; nested grid_images diagrams remain versioned.
+/multiconductor/test/wp*/*.png
+
+# Workstation state, logs, notebooks, and experiment outputs
+/runtime/
+.ipynb_checkpoints/
+.jupyterlite.doit.db*
+lightning_logs/
+wandb/
+events.out.tfevents.*
+*.log
+*.log.*
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.tmp
+*.temp
+*.bak
+*.bak.*
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor, agent, hosting, and environment configuration
+.vscode/
+.idea/
+**/.claude/settings.local.json
+/.openai/hosting.json
+.env
+.env.*
+!.env.example
+!.env.*.example
+# This checked-in build mode contains only VITE_HOSTED=true, no credentials.
+!/frontend/.env.cloud
+
+# Local datasets and the separately maintained TECO workspace.
+# Anchor these paths so Python packages named data remain versioned.
+/data/
+/teco/
+/fault-distance/data/Wavewin_Logs/
+/fault-distance/data/csv_all/
+/fault-distance/data/data_training/
+/fault-distance/data/data_augmented/
+/fault-distance/data/data_test_csv/
+/fault-distance/logs_smoke/
+/fault-distance/$null
+
+# Deferred large assets / LFS candidates: keep local until storage is available.
+# Do not add LFS tracking yet. Remove the relevant rule when ready to upload.
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+/reference/tools/tutorial2.ipynb
+/fault-distance/deep_dive_notebook/pdfs/
+/fault-distance/tests/fault_inception/oscillograms/
+
+# Small synthetic regression fixtures belong in normal Git, not LFS.
+!/multiconductor/test/**/grids/*.pkl
+# Keep fault-distance/data/data_test COMTRADE fixtures, spreadsheet fixtures,
+# source notebooks, schema SQL, and dependency lockfiles versioned.
