@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/fault_kernel_tests.dir/tests/kernel_tests.cpp.o -o fault_kernel_tests  libfault_core.a 

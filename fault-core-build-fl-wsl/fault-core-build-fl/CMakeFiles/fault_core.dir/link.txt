@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfault_core.a CMakeFiles/fault_core.dir/core/fault_core.cpp.o CMakeFiles/fault_core.dir/core/fault_wire.cpp.o
+/usr/bin/ranlib libfault_core.a
